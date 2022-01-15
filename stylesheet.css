@@ -116,3 +116,68 @@
 .see-more-size{
     padding-right: 27px;
 }
+
+
+/* 
+===============
+last section  
+==================*/
+
+.Contact{
+    color: maroon;
+}
+.arrow{
+    color: rgb(124, 13, 5);
+}
+
+/* .call-now{
+    height: 100px;
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    box-shadow: rgb(204, 204, 204) 10px 10px 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+   
+}
+.container-contact .call-now{
+    align-items: center;
+} */
+
+
+
+.con-tact{
+    
+    padding-bottom: 20px;   
+    color: mediumblue;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgb(250, 248, 248) 3px  3px  3px  3px  ;
+    font-size: 5px;
+    margin: auto;
+    width: 10%;
+    height: 30px;
+    border: 2px solid rgb(141, 4, 4);
+    padding: 10px;
+    column-gap: 10px;
+   border-radius: 5px;
+   text-align: center;
+ 
+}
+
+.con-tact :hover{
+    
+    color: rgb(205, 65, 0);
+    border: rgb(205, 65, 0);
+ 
+}
+.text-alin{
+    text-decoration: mediumblue;
+}
+
+
+
+
+.boder-center{
+    padding-bottom: 20px;
+}
