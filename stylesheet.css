@@ -159,7 +159,7 @@ last section
     height: 30px;
     border: 2px solid rgb(141, 4, 4);
     padding: 10px;
-    column-gap: 10px;
+   column-gap: 10px;
    border-radius: 5px;
    text-align: center;
  
@@ -180,4 +180,21 @@ last section
 
 .boder-center{
     padding-bottom: 20px;
+}
+.footer{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+background-color: black;
+color: white;
+font-size: 7px;
+}
+
+.icon{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+#id-color{
+    color: rgb(1, 99, 145);
 }
