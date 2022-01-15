@@ -1,0 +1,50 @@
+
+
+.fast-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 40px;
+    
+}
+.fast-container img{
+    
+    padding-left: 25px;
+   
+    size: 200px;
+    width: 300px;
+   
+    margin-right: 35px;
+    margin-left: 20px;
+
+  
+}
+
+.peragrap{
+    font-size: 6px;
+   font-weight: bold;
+}
+
+.button{
+    font-size: 7px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(202, 17, 4);
+    padding: 5px 20px ;
+    border-radius: 20px;
+    
+    
+}
+.button :hover{
+   transition: ease-in-out;
+    background-color: white;
+}
+.images :hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
