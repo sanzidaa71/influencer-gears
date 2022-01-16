@@ -1,20 +1,29 @@
 
 
+.h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 
+    87px;
+
+
+}
 .fast-container{
     font-family: 'Poppins', sans-serif;
     display: flex;
-    padding-left: 25px;
-    font-size: 15px;
+    padding-left: 40px;
+    font-size: 32px;
     font-weight: bold;
     padding-top: 40px;
     color: rgb(63, 63, 63);
 }
 .fast-container img{
     
-    padding-left: 25px;
+    padding-left: 50px;
    
-    size: 200px;
-    width: 300px;
+    size: 370px;
+    width: 470px;
    
     margin-right: 35px;
     margin-left: 20px;
@@ -23,24 +32,38 @@
 }
 
 .peragrap{
-    font-size: 6px;
+    font-size: 12px;
    font-weight: bold;
 }
 
+
+
+
 .button{
-    font-size: 7px;
+   
+    font-size: 17px;
     color: white;
     text-decoration: none;
     background-color: rgb(202, 17, 4);
-    padding: 5px 20px ;
+    padding: 7px 22px ;
     border-radius: 20px;
     
     
 }
-.button :hover{
-   transition: ease-in-out;
-    background-color: white;
-}
+
+
+
+.button {
+    transition-duration: 0.4s;
+  }
+
+
+  .button:hover {
+    background-color: rgb(252, 252, 252); /* Green */
+    color: rgb(7, 7, 7);
+    border: 1px solid rgb(173, 2, 2);
+  }
+
 .images :hover {
     transform: scale(1.2);
     transition: transform 0.5s ease-in-out;
@@ -48,38 +71,61 @@
 /* products styles */
 
 .products .product-banner img{
+    align-items: center;
+    border-image: 2% ;
     padding-top: 10px;
     padding-bottom: 0px;
-    width: 600px;
-    height: 90px;
+    width: 290px;
+    height: 150px;
     border-radius: 4px;
-    display: block;
+  
     margin-left: 10px;
     margin-right: 10px;
-    width: 90%;
+    width: auto;
     
 }
 .fa-star.filled{
     color: #FFC014;
 }
 .section-title{
-    align-items: center;
+    /* align-items: center;
+    font-size: 30px; */
+    font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+
 
 }
+/* product info  */
+
+
+
 
 .produt-info{
     font-size: 8px;
-    color: rgb(92, 87, 87);
+    color: rgb(165, 4, 4);
    
 }
 
 .second-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 20px; 
+    
     grid-row-gap: 20px;
-    padding-left: 20px;
-    padding-right: 27px;
+
+    
+  
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+
+    background-color: rgba(255, 255, 255, 0.582);
    
 }
 
@@ -93,28 +139,49 @@
 .product{
     
     box-shadow:  1px 1px 1px 1px #7a7a7a;
+  
 
+    width: 200px;
+    height: 300px;
+     border : 1px solid rgb(5, 5, 5);
+     padding-bottom: 25px;
+     background-color: rgb(252, 252, 252);
+    
 }
 
 .product .produt-info{
     display: block;
   margin-left: 15px;
  font-size: 7px;
-  width: 50%;
-  word-spacing: 5px;
+ /* width: 100%; */
+ word-spacing: 5px;
   padding-bottom: 2%;
+  font-size: 12px;
+
 }
+
+
+/* see more  */
+
 .See-More{
-    
-    font-size: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 17px;
     text-decoration: none;
     color: maroon;
-    text-align: right;
 
+
+
+    position: absolute;
+  right: 350px;
+  width: 100px;
+  height: 120px;
+  
 
 }
 .see-more-size{
     padding-right: 27px;
+    
 }
 
 
@@ -130,24 +197,9 @@ last section
     color: rgb(124, 13, 5);
 }
 
-/* .call-now{
-    height: 100px;
-    width: 100px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-    box-shadow: rgb(204, 204, 204) 10px 10px 10px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-   
-}
-.container-contact .call-now{
-    align-items: center;
-} */
 
 
-
-.con-tact{
+ /* .con-tact{
     
     padding-bottom: 20px;   
     color: mediumblue;
@@ -162,25 +214,67 @@ last section
    column-gap: 10px;
    border-radius: 5px;
    text-align: center;
- 
-}
+  
+}  */
 
-.con-tact :hover{
+
+/* .con-tact :hover{
     
     color: rgb(205, 65, 0);
     border: rgb(205, 65, 0);
+    
  
-}
+} */
 .text-alin{
     text-decoration: mediumblue;
 }
 
+.contact-hover{
+    border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 2, 2);
+    box-shadow: rgba(0, 0, 0, 0.247) 1.5px 1.5px  1.5px  1.5px ;
+    transition-duration: 0.4s;
+}
 
 
+.box-hover :hover{
+
+    transition: ease-out;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(148, 3, 3);
+ 
+
+}
 
 .boder-center{
     padding-bottom: 20px;
 }
+
+
+.contact-box{
+
+    display: flex;
+padding-left: 30%;
+gap: 20px;
+padding-bottom: 100px;
+padding-top: 100px;
+}
+
+/* 
+=============
+footer
+=============== */
 .footer{
     font-family: 'Poppins', sans-serif;
     padding-top: 20px;
@@ -188,13 +282,48 @@ last section
     text-align: center;
 background-color: black;
 color: white;
-font-size: 7px;
+font-size: 15px;
 }
 
 .icon{
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 #id-color{
     color: rgb(1, 99, 145);
+}
+
+
+/* 
+=================
+media query
+================== */
+
+/* Mobile devices */
+@media  Only screen and (max-width:688px) 
+{
+   
+.fast-container .Mobile-view{
+    grid-template-columns: repeat(1,);
+    align-items: center;
+    grid-template-columns: auto;
+    
+
+ width: 100%;
+
+
+ 
+}
+.second-container{
+    grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.section-title{
+    text-align: center;
+    
+}
+.see-more-size{
+    margin-left: 20px;
 }
